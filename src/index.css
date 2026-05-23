@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+@theme {
+  /* Updated to a premium "Cool Pearl White" */
+  --color-pale-bg: #F4F6F9;
+  
+  --shadow-soft-pop: 8px 8px 20px rgba(0, 0, 0, 0.05), -8px -8px 20px rgba(255, 255, 255, 1);
+  --shadow-soft-pressed: inset 6px 6px 12px rgba(0, 0, 0, 0.05), inset -6px -6px 12px rgba(255, 255, 255, 1);
+}
+
+body {
+  background-color: var(--color-pale-bg);
+  color: #1a1a1a;
+  margin: 0;
+  font-family: system-ui, -apple-system, sans-serif;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* INFINITE SCROLLING ANIMATIONS FOR VEHICLE BACKGROUND */
+@keyframes scroll-left {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+@keyframes scroll-right {
+  0% { transform: translateX(-50%); }
+  100% { transform: translateX(0); }
+}
+
+.animate-scroll-left {
+  animation: scroll-left 90s linear infinite; /* Very slow, elegant scroll */
+}
+
+.animate-scroll-right {
+  animation: scroll-right 110s linear infinite; /* Slower, moving opposite way */
+}
