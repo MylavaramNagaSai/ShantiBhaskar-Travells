@@ -62,7 +62,7 @@ export const devotionalTours = [
   { title: "Sripada Srivallabha Janmasthanam", desc: "The holy birthplace of Sripada Srivallabha in Pithapuram.", tag: "Pilgrimage", image: "sripadasrivallabhajanmasthanam.png" },
   { title: "Kunti Madhava Swamy", desc: "One of the five ancient Madhava temples, located in Pithapuram.", tag: "Ancient", image: "kuntimadhavaswamy.png" },
   { title: "Dattatreya Temple, Pithapuram", desc: "A highly sacred shrine dedicated to Lord Dattatreya.", tag: "Sacred", image: "dattatreyatemple,pithapuram.png" },
-  { title: "Annavaram Satyanarayana Swamy", desc: "An extremely popular temple renowned for divine Vratams.", tag: "Bestseller", image: "annavaramsatyanarayanaswamy.png" },
+  { title: "Annavaram Satyanarayana Swamy", desc: "An extremely popular temple renowned for divine Vratams.", tag: "Annavaram", image: "annavaramsatyanarayanaswamy.png" },
   { title: "Talupulamma Lova", desc: "A highly visited, scenic temple dedicated to Goddess Talupulamma Talli.", tag: "Nature", image: "talupulammalova.png" },
 
   // Vizag Temples
